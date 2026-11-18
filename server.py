@@ -3,7 +3,8 @@ from pathlib import Path
 from typing import Optional
 from fastapi import FastAPI, UploadFile, File, Form, HTTPException, BackgroundTasks
 from fastapi.responses import HTMLResponse, FileResponse, JSONResponse
-from fastapi.staticfiles import StaticFiles\nfrom fastapi.middleware.cors import CORSMiddleware
+from from fastapi.staticfiles import StaticFiles
+from fastapi.middleware.cors import CORSMiddleware
 
 BASE = Path(__file__).parent
 DATA = BASE / "data"
